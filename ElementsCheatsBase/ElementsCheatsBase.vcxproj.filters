@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Addons">
+      <UniqueIdentifier>{57fcfe8e-505e-4205-b556-1265486903f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\Super Simple Button Api">
+      <UniqueIdentifier>{715bbfac-4ee2-47e4-b42b-355f31890790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Globals">
+      <UniqueIdentifier>{ab77e3cf-52ff-41ed-bea7-25366fc56be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\LoadBalancingClient">
+      <UniqueIdentifier>{7caba85e-747f-4acc-b4a0-3e103fe57c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\HookManager">
+      <UniqueIdentifier>{f1c402cf-9e1b-4222-b0a2-498eaa3723f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{35684f96-2125-408a-9ad1-4dd6c58f3d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\Utils">
+      <UniqueIdentifier>{389440e9-9280-4d47-a62e-85e531d6896c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons\System">
+      <UniqueIdentifier>{bfe7e633-e775-4642-8928-c6d03e2acd39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Addons\Super Simple Button Api\BtnAPI.h">
+      <Filter>Addons\Super Simple Button Api</Filter>
+    </ClInclude>
+    <ClInclude Include="Addons\Super Simple Button Api\BtnUtils.h">
+      <Filter>Addons\Super Simple Button Api</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals\Config.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals\Globals.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals\Offsets.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Addons\LoadBalancingClient\LoadBalancingClient.h">
+      <Filter>Addons\LoadBalancingClient</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalGUI.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Addons\HookManager\HookManager.h">
+      <Filter>Addons\HookManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\PlayerHooks.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Addons\Utils\Random.h">
+      <Filter>Addons\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Addons\System\System.h">
+      <Filter>Addons\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Addons\Utils\Pattern.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Addons\ElementsModSDK\elements.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Addons\ElementsModSDK\elements.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
